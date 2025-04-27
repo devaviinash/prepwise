@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import DisplayTechIcons from "@/components/DisplayTechIcons";
 
-const InterviewCard = ({
+export const InterviewCard = ({
   interviewId,
   userId,
   role,
